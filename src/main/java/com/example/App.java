@@ -13,6 +13,17 @@ public class App {
         System.out.println();
         System.out.println("Aplicação Java de Exemplo\n");
 
+        Cliente cliente = new Cliente();
+
+        cliente.setRenda(2000);
+        cliente.setSexo('M');
+        cliente.setNome("Miguel");
+        System.out.println("");
+        System.out.println("Sexo: "+cliente.getNome());
+        System.out.println("Renda: "+cliente.getRenda());
+        System.out.println("Sexo: "+cliente.getSexo());
+     
+
         //new App();
     }
 
