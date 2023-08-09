@@ -6,6 +6,10 @@ public class Cliente{
     private boolean especial;
     private String nome;
 
+    public Cliente(){
+        System.out.println("Criando classe Cliente");
+    }
+
     
     public String getNome() {
         return nome;
