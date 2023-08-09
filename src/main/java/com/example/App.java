@@ -15,13 +15,40 @@ public class App {
 
         Cliente cliente = new Cliente();
 
-        cliente.setRenda(2000);
-        cliente.setSexo('M');
-        cliente.setNome("Miguel");
+        cliente.setRenda(1500);
+        cliente.setSexo('F');
+        cliente.setNome("Bento");
+        cliente.setCpf("777777");
         System.out.println("");
+
+        Cliente cliente1 = new Cliente();
+
+        cliente1.setRenda(2000);
+        cliente1.setSexo('M');
+        cliente1.setNome("Miguel");
+        cliente1.setCpf("777777");
+        System.out.println("");
+
+
         System.out.println("Sexo: "+cliente.getNome());
         System.out.println("Renda: "+cliente.getRenda());
         System.out.println("Sexo: "+cliente.getSexo());
+        System.out.println("Sexo: "+cliente.getCpf());
+
+        if(cliente.getCpf().equals(cliente1.getCpf()))
+            System.out.println("Clientes tem o mesmo CPF!");
+        else System.out.println("Clientes tem os CPF diferentes!");
+
+        System.out.println("");
+
+        System.out.println("Sexo: "+cliente1.getNome());
+        System.out.println("Renda: "+cliente1.getRenda());
+        System.out.println("Sexo: "+cliente1.getSexo());
+        System.out.println("Sexo: "+cliente1.getCpf());
+
+        if(cliente.getCpf().equals(cliente1.getCpf()))
+            System.out.println("Clientes tem o mesmo CPF!");
+        else System.out.println("Clientes tem os CPF diferentes!");
      
 
         //new App();
