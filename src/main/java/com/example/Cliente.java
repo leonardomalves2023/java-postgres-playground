@@ -47,7 +47,10 @@ public class Cliente{
         this.especial = especial;
     }
  
+    public String toString(){
 
+        return "Nome :"+nome+" - Renda :"+renda;
+    }
     
 
 }
